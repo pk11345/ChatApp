@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className='p-7 w-full h-[400px] flex justify-center items-center'>
         <h1 className='flex flex-col items-center text-3xl font-semibold text-white'>Welcome! 
           <span>New User? <Link to="/signup">Signup</Link></span> 
-          <span>Already an User? <Link to="/login">Login</Link></span> </h1>
+          <span className='flex'>Already an User? <Link to="/login">Login</Link></span> </h1>
     </div>
     </>
   )
